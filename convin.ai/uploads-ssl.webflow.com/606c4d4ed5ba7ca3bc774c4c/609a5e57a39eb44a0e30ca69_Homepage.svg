@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.881" height="68.84" viewBox="0 0 70.881 68.84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.789" y1="1" x2="0.326" y2="0.328" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5172ff"/>
+      <stop offset="1" stop-color="#7f98ff"/>
+    </linearGradient>
+    <filter id="appearance" x="0" y="0" width="70.881" height="68.84" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#5172ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Homepage" transform="translate(5.496 1.524)">
+    <rect id="range" width="60" height="60" opacity="0"/>
+    <g transform="matrix(1, 0, 0, 1, -5.5, -1.52)" filter="url(#appearance)">
+      <path id="appearance-2" data-name="appearance" d="M20.379.971,2.238,13.75A5.268,5.268,0,0,0,0,18.063v24.4A2.387,2.387,0,0,0,2.391,44.84H13.9a3.33,3.33,0,0,0,3.334-3.322V38.635a2.387,2.387,0,0,1,2.391-2.379h7.635a2.387,2.387,0,0,1,2.391,2.379v2.883a3.33,3.33,0,0,0,3.334,3.322H44.49a2.387,2.387,0,0,0,2.391-2.379v-24.4a5.268,5.268,0,0,0-2.238-4.312L26.5.971a5.3,5.3,0,0,0-6.117,0Z" transform="translate(12 8)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="section" d="M.394,8.25A.382.382,0,0,1,0,7.879v-.1A2.243,2.243,0,0,1,1.005,5.921L9.131.417a2.464,2.464,0,0,1,2.742,0l8.122,5.5A2.247,2.247,0,0,1,21,7.778v.1a.382.382,0,0,1-.394.371Z" transform="translate(19.5 15.75)" fill="#fff"/>
+    <path id="highlight" d="M.006,12.457v-.615a1.054,1.054,0,1,1,2.109,0v.615a1.054,1.054,0,1,1-2.109,0Zm0-4.131L0,1.055a1.055,1.055,0,0,1,2.11,0l.005,7.271a1.054,1.054,0,1,1-2.109,0Z" transform="translate(9.252 29.531)" fill="#fff"/>
+  </g>
+</svg>
